@@ -56,6 +56,11 @@ Create a reservation:
 POST ➜ https://hometime-api-test.herokuapp.com/reservations
 ```
 
+Create a guest:
+```
+POST ➜ https://hometime-api-test.herokuapp.com/guests
+```
+
 ## Example Payload for the Reservation POST API
 Here's a payload that you can use for it:
 ```
