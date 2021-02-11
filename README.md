@@ -78,7 +78,8 @@ Here's a payload that you can use for it:
     "guest_email": "wayne_woodbridge@bnb.com",
     "guest_first_name": "Wayne",
     "guest_id": 1,
-    "guest_last_name": "Woodbridge", "guest_phone_numbers": [
+    "guest_last_name": "Woodbridge",
+    "guest_phone_numbers": [
       "639123456789",
       "639123456789"
     ],
