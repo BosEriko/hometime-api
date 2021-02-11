@@ -33,3 +33,15 @@ For other cases please check the commands below.
 ➜ docker attach <CONTAINER_NAME>                          # Attach to the application container (for when you're trying to use Debugger/Byebug)
 ```
 
+## Test the APIs
+For easier testing, I've set up an accessible API of this project through Heroku. Do note that Heroku has a downtime at first request so if it's slow for the first time the dyno is being set up.
+
+Root Route which redirects to "https://hometime.io/":
+GET ➜ https://hometime-api-test.herokuapp.com/
+
+Route to request all Reservations:
+GET ➜ https://hometime-api-test.herokuapp.com/reservations
+
+Route to request all Guests:
+GET ➜ https://hometime-api-test.herokuapp.com/guests
+
